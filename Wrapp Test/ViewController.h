@@ -8,6 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+
+@interface ViewController : UIViewController <UIWebViewDelegate> {
+    IBOutlet UIWebView *webView;
+    IBOutlet UIButton *loginButton;
+    NSString *apiKey;
+    NSString *requestedPermissions;
+    NSString *aT;
+}
+
+- (IBAction)clickLogin;
+
+
 
 @end

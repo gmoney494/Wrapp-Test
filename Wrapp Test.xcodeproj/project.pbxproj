@@ -21,6 +21,8 @@
 		A0B364A718FF048F00547721 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0B3648918FF048F00547721 /* UIKit.framework */; };
 		A0B364AF18FF048F00547721 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0B364AD18FF048F00547721 /* InfoPlist.strings */; };
 		A0B364B118FF048F00547721 /* Wrapp_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B364B018FF048F00547721 /* Wrapp_TestTests.m */; };
+		A0B364BF18FF1CB400547721 /* FriendsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B364BE18FF1CB400547721 /* FriendsListViewController.m */; };
+		A0B364C318FF23C100547721 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B364C218FF23C100547721 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		A0B364AC18FF048F00547721 /* Wrapp TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Wrapp TestTests-Info.plist"; sourceTree = "<group>"; };
 		A0B364AE18FF048F00547721 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A0B364B018FF048F00547721 /* Wrapp_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Wrapp_TestTests.m; sourceTree = "<group>"; };
+		A0B364BD18FF1CB400547721 /* FriendsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FriendsListViewController.h; path = ../FriendsListViewController.h; sourceTree = "<group>"; };
+		A0B364BE18FF1CB400547721 /* FriendsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FriendsListViewController.m; path = ../FriendsListViewController.m; sourceTree = "<group>"; };
+		A0B364C118FF23C100547721 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		A0B364C218FF23C100547721 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,10 @@
 				A0B3649718FF048F00547721 /* Main.storyboard */,
 				A0B3649A18FF048F00547721 /* ViewController.h */,
 				A0B3649B18FF048F00547721 /* ViewController.m */,
+				A0B364BD18FF1CB400547721 /* FriendsListViewController.h */,
+				A0B364BE18FF1CB400547721 /* FriendsListViewController.m */,
+				A0B364C118FF23C100547721 /* JSONKit.h */,
+				A0B364C218FF23C100547721 /* JSONKit.m */,
 				A0B3649D18FF048F00547721 /* Images.xcassets */,
 				A0B3648C18FF048F00547721 /* Supporting Files */,
 			);
@@ -249,9 +259,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0B364BF18FF1CB400547721 /* FriendsListViewController.m in Sources */,
 				A0B3649C18FF048F00547721 /* ViewController.m in Sources */,
 				A0B3649618FF048F00547721 /* AppDelegate.m in Sources */,
 				A0B3649218FF048F00547721 /* main.m in Sources */,
+				A0B364C318FF23C100547721 /* JSONKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +468,7 @@
 				A0B364B618FF048F00547721 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A0B364B718FF048F00547721 /* Build configuration list for PBXNativeTarget "Wrapp TestTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +477,7 @@
 				A0B364B918FF048F00547721 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
